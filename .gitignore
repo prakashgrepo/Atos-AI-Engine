@@ -1,0 +1,9 @@
+# Environment files (real secrets)
+.env
+.env.local
+.env.production
+.env.development
+
+# Ignore all .env.* EXCEPT example
+.env.*
+!.env.example
